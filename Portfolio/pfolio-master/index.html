@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Alen Thomas - Web developer</title>
+  <meta name="title" content="Alen Thomas">
+  <meta name="description" content="This is a personal portfolio html template made by alen20202">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+  <!-- 
+  - #HEADER
+-->
+
+<header class="header" data-header>
+  <div class="container">
+
+    <a href="#" class="logo">
+      <img src="./assets/images/logo.svg" width="170" height="40" alt=" home">
+    </a>
+
+    <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+      <span class="line line-1"></span>
+      <span class="line line-2"></span>
+    </button>
+
+    <nav class="navbar" data-navbar>
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#hero" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#resume" class="navbar-link">Resume</a>
+        </li>
+
+        <li>
+          <a href="#service" class="navbar-link">Services</a>
+        </li>
+
+        <li>
+          <a href="#portfolio" class="navbar-link" data-nav-toggle-btn="">Portfolio</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link">Blog</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="navbar-link">Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+
+  </div>
+</header>
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Alen Thomas</h1>
+
+            <p class="hero-subtitle">
+              Creative Web & App Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/blackw.jpg" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I’m Alen Thomas residing in India, I am a creative web & app developer who dream making the world better place by
+              creating captivating products.
+            </p>
+
+            <a href="./assets/css/Alen_Thomas_resume.pdf" class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+             
+
+            
+            </div>
+          <div>
+                
+            <p class="section-text"><br><br><br>
+               <h2 class="h2 section-title" id="service-label">Services</h2><p class="section-subtitle">
+                  Services That I Provide
+                </p>
+              As a web developer, I offer comprehensive front-end and back-end development services, including building responsive, user-friendly websites and robust server-side applications. My expertise extends to full-stack development, enabling me to handle all aspects of a web project, from design to deployment. I specialize in custom web application development, API integration, and e-commerce solutions, ensuring tailored functionality to meet specific business needs. Additionally, I provide ongoing website maintenance, SEO optimization, and security measures to enhance performance and protect against threats.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Website Design</h3>
+
+                  <p class="card-text">
+                    I design visually appealing, user-friendly websites that balance aesthetics and functionality. 
+                    My work focuses on intuitive layouts and responsive designs, ensuring seamless user experiences across all devices. By blending creativity with technical skills, I create websites that look great and perform efficiently, catering to both user and client needs.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">SEO Marketing</h3>
+
+                  <p class="card-text">
+                    As a developer, I focus on optimizing websites for better search engine visibility and ranking through effective SEO practices. I use relevant keywords, improve site structure and speed, ensure mobile compatibility, and build quality backlinks. By incorporating these strategies, I aim to drive more organic traffic, enhance user experience, and ensure the website aligns with search engine guidelines for sustained online success.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">eCommerce</h3>
+
+                  <p class="card-text">
+                    E-commerce design, from the perspective of a web developer, involves creating and implementing a website that facilitates online transactions of goods or services. The goal is to provide a seamless and engaging experience for users while ensuring the site is secure, scalable, and easy to manage. Here are the key aspects of e-commerce design:
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Graphic Design</h3>
+
+                  <p class="card-text">
+                    Graphic design in the context of web development focuses on creating visually engaging and user-friendly interfaces for websites. As a web developer, understanding graphic design is essential because it helps in implementing designs that not only look appealing but also enhance user experience and usability. Here's a breakdown of how graphic design principles are integrated into web development:
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Digital Marketing</h3>
+
+                  <p class="card-text">
+                    Digital marketing involves promoting products or services using online channels to reach and engage with a target audience. As a web developer, understanding digital marketing is crucial because the website you build often serves as the primary platform for these marketing efforts. Your role can directly impact the effectiveness of various digital marketing strategies. Here’s how web development intersects with digital marketing:
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The Future</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+               
+              </p>
+
+              <p class="section-text">
+                Web design is very important and always complements the
+                 development process. Creating websites is like navigating a complex 
+                 environment where the design and functionality need to come together 
+                 seamlessly. The experience of users is vital, and developers should 
+                 consider every detail to achieve harmony. Additionally, it’s essential 
+                 to focus on responsive designs that adapt well to different platforms.
+
+
+
+
+
+
+
+              </p><br>
+              <h2 class="h2 section-title">Skills</h2>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label"> Web Design</p>
+
+                    <data class="progress-value" value="90">95%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 95%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">HTML</p>
+
+                    <data class="progress-value" value="80">98%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 98%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">CSS</p>
+
+                    <data class="progress-value" value="95">95%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 95%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Portfolio Creation</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">JavaScript</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Python</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">BootStrap</p>
+
+                    <data class="progress-value" value="85">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Java</p>
+
+                    <data class="progress-value" value="85">65%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 65%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">WordPress</p>
+
+                    <data class="progress-value" value="85">75%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+
+
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" id="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div><br><br>
+            <p class="section-subtitle" id="portfolio-label">My Works</p>
+
+            <h2 class="h2 section-title">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            "Phasellus and lacus support the structure of design and the alignment of key elements. Working efficiently, it adjusts to provide smooth integration and seamless operation across different devices. Focus on balanced designs helps ensure that layouts are not only visually appealing but also functionally effective. Paying attention to the details helps in avoiding misalignments and maintaining a cohesive flow throughout the website."
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Gaming Site</h3>
+
+                  <p class="card-text">Website Design</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Aer Agency</h3>
+
+                  <p class="card-text">Website / Development</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-3.jpg" width="200" height="200" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Movie Posters</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Netflix</h3>
+
+                  <p class="card-text">Website / UX Design</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Design Zoom</h3>
+
+                  <p class="card-text">Branding / Design</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/smith.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Portfolio Creation</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Resume
+      -->
+
+      <section class="section blog" id="resume" aria-labelledby="blog-label">
+        <div class="container">
+          <h2 class="h2 section-title">Resume</h2>
+          <p class="section-subtitle" id="blog-label">Educational Background</p>
+
+          
+
+           <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title"><b>Summary</b></h3>
+            <div class="resume-item pb-0">
+              <h4>Alen Thomas</h4>
+              <p><em>Innovative and driven software engineering student with a focus on web technologies and AI. <br>  
+                  
+                  </em></p>
+              <ul>
+                <li>APJ Abdul Kalam Technological University, Kerala-India</li>
+                <li>+91 7025948108</li>
+                <li>darkstal746@gmail.com</li>
+              </ul>
+            </div><br>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology in Computer Science</h4>
+              <h5>2021 - Present</h5>
+              <p><em>St Thomas Institute for Science and Technology, Trivandrum, Kerala</em></p>
+             <br>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Intern- PYTHON PROGRAMMING AND MACHINE LEARNING</h4>
+              <h5>2023</h5>
+              <p><em>SRISHTI INNOVATIONS PVT LIMITED</em></p>
+              <ul>
+                <li>Lead in the development of innovative Python applications.</li>
+                <li>Collaborate with cross-functional teams to deliver cutting-edge projects.</li>
+                <li>Passionate about optimizing solutions and fostering innovation.</li>
+                <li>Driven by a constant desire to improve technology and make a meaningful impact.</li>
+              </ul><br>
+              <h4>Intern- CLOUD COMPUTING</h4>
+              <h5>2022</h5>
+              <p><em>PACELABS EKM-INDIA</em></p>
+              <ul>
+                <li>Lead in the development of innovative Python applications.</li>
+                <li>Collaborate with cross-functional teams to deliver cutting-edge projects.</li>
+                <li>Passionate about optimizing solutions and fostering innovation.</li>
+                <li>Driven by a constant desire to improve technology and make a meaningful impact.</li>
+              </ul>
+            </div><br>
+            <div class="resume-item">
+              <h4>Web Development Specialist</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Freelancer</em></p>
+              <ul>
+                <li>Worked with different Upwork Clients to create their personal Porfolios, UI/UX designs.</li>
+                <li>Leveraged Python, Django, HTML, CSS, and other web technologies for project development.</li>
+                <li>Bootcamp experience at Udemy Full Stack Web Development Course .</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+
+    <!--
+    #blog
+    -->
+    <section class="section blog" id="blog" aria-labelledby="blog-label">
+      <div class="container">
+            <li>
+              <div class="blog-card">
+                <h2 class="h2 section-title">Blog</h2>
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
+                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-27">
+                    <span class="span text-lg">27</span>
+                    June 2024
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Web Development as a career – in 2024.</h3>
+
+                    <p class="card-text">
+                      Web development continues to be a strong career choice in 2024, driven by the ongoing demand for online presence, digital transformation, and the expansion of web-based technologies.
+                    </p>
+
+                    <a href="https://intellipaat.com/blog/is-web-development-a-good-career/" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <section class="section blog" id="contact" aria-labelledby="blog-label">
+    <div class="container">
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+        <h2 class="h2 section-title">Contact me:</h2>
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="https://mail.google.com/mail/?to=darkstal746@gmail.com&bcc=darkstal746@gmail.com&subject=Hey#compose" class="footer-link">darkstal746@gmail.com</a>
+        </li>
+        <li>Mobile:+91 7025948108</li>
+        <li>Insta: a.l.e.n.j.r</li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="https://www.google.com/maps/@8.5322266,76.9122675,12z?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" class="footer-link">Kerala-India</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/red.hunter.564813" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/a.l.e.n.j.r/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/alen20202" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/alen-thomas-518179273/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
